@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "cat_doi",
+            "request": "launch",
+            "mainClass": "cat_doi",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "fibo_check",
+            "request": "launch",
+            "mainClass": "fibo_check",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "helloworld",
+            "request": "launch",
+            "mainClass": "helloworld",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "hinh_chu_nhat",
+            "request": "launch",
+            "mainClass": "hinh_chu_nhat",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "ktra_ngto",
+            "request": "launch",
+            "mainClass": "ktra_ngto",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "ptrinh_1",
+            "request": "launch",
+            "mainClass": "ptrinh_1",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "so_chinh_phuong",
+            "request": "launch",
+            "mainClass": "so_chinh_phuong",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "so_tam_phan",
+            "request": "launch",
+            "mainClass": "so_tam_phan",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "sum_n",
+            "request": "launch",
+            "mainClass": "sum_n",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "tong_giai_thua",
+            "request": "launch",
+            "mainClass": "tong_giai_thua",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "uoc_chia_2",
+            "request": "launch",
+            "mainClass": "uoc_chia_2",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "uocnguyenmax",
+            "request": "launch",
+            "mainClass": "uocnguyenmax",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        }
+    ]
+}
