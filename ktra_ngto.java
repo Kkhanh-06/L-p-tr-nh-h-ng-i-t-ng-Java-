@@ -1,20 +1,21 @@
 import java.util.Scanner;
 
 public class ktra_ngto {
-    public static boolean SNT (int x) {
-        if (x <= 1) return false;
-        for (int i = 2; i <= Math.sqrt(x); ++i) {
-            if (x % i == 0) return false;
-        }
-        return x > 1;
+    static boolean scp (long x) {
+        long s = (long) Math.sqrt(x);
+        return s * s == x;
     }
+
+    static boolean is_snt (long n) {
+        return scp(5 * n * n + 4) || scp(5 * n * n - 4);
+    }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        while (t > 0) {
-            --t;
-            int n = sc.nextInt();
-            if (SNT(n)) {
+        while (t-- > 0) {
+            long n = sc.nextLong();
+            if (is_snt(n)) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");

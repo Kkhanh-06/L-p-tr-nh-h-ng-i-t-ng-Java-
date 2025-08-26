@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hinhvuong",
+            "request": "launch",
+            "mainClass": "hinhvuong",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
