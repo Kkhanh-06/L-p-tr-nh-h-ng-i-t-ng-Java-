@@ -43,5 +43,6 @@ public class cat_doi {
                 }
             }
         }
+        sc.close();
     }
 }

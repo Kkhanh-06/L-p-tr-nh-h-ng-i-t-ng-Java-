@@ -44,5 +44,6 @@ public class ptich_nguyento {
             }
             System.out.println("");
         }
+        sc.close();
     }
 }

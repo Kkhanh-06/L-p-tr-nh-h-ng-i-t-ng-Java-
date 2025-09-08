@@ -21,5 +21,6 @@ public class uoc_chia_2 {
                 System.out.println(ans);
             }
         }
+        sc.close();
     }
 }

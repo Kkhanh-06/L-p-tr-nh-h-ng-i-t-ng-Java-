@@ -20,5 +20,6 @@ public class fibonacci {
             int n = sc.nextInt();
             System.out.println(fibo(n + 1) - fibo(n - 1));
         }
+        sc.close();
     }
 }

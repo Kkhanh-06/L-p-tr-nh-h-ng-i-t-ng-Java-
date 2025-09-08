@@ -18,5 +18,6 @@ public class ucln_bcnn {
             long b = sc.nextInt();
             System.out.println((a * b / gcd(a, b)) + " " + gcd(a, b));
         }
+        sc.close();
     }
 }

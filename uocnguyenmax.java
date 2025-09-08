@@ -29,5 +29,6 @@ public class uocnguyenmax {
                 System.out.println(uocMax);
             }
         }
+        sc.close();
     }
 }

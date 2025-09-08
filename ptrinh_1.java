@@ -13,5 +13,6 @@ public class ptrinh_1 {
             String ans = String.format("%.2f", -b / a);
             System.out.println(ans);
         }
+        scanf.close();
     }
 }

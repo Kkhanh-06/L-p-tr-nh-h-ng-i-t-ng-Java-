@@ -29,6 +29,7 @@ public class so_0_lien_ke {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
 }
 

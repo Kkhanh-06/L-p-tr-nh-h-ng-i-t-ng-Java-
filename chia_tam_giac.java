@@ -12,5 +12,6 @@ public class chia_tam_giac {
             }
             System.out.println("");
         }
+        sc.close();
     }
 }

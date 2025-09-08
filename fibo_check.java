@@ -39,5 +39,6 @@ public class fibo_check {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
 }

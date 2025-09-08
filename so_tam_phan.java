@@ -23,5 +23,6 @@ public class so_tam_phan {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
 }

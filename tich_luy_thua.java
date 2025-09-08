@@ -21,5 +21,6 @@ public class tich_luy_thua {
             if (a == 0 && b == 0) break;
             System.out.println(powMod(a, b, mod));
         }
+        sc.close();
     }
 }

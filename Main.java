@@ -15,5 +15,6 @@ public class Main {
             BigInteger b = new BigInteger(sc.nextLine());
             System.out.println(lcm(a, b));
         }
+        sc.close();
     }
 }

@@ -14,7 +14,6 @@ public class tong_uoc1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        int x = t;
         int tong = 0;
         while (t-- > 0) {
             int n = sc.nextInt();
@@ -45,5 +44,6 @@ public class tong_uoc1 {
             }
         }
         System.out.println(tong);
+        sc.close();
     }
 }

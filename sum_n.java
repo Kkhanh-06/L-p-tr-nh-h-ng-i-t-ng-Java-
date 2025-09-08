@@ -8,5 +8,6 @@ public class sum_n {
             long n = scanf.nextInt();
             System.out.println(n * (n + 1) / 2);
         }
+        scanf.close();
     }
 }

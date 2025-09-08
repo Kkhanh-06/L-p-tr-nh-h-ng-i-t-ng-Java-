@@ -18,5 +18,6 @@ public class chuso4_7 {
         } else {
             System.out.println("NO");
         }
+        sc.close();
     }
 }

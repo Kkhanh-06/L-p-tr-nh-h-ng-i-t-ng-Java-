@@ -12,5 +12,6 @@ public class hinh_chu_nhat {
         } else {
             System.out.println(ChuVi + " " + DienTich);
         }
+        scanf.close();
     }
 }

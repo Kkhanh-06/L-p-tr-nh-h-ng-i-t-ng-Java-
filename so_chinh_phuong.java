@@ -20,5 +20,6 @@ public class so_chinh_phuong {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
 }

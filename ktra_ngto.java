@@ -20,5 +20,6 @@ public class ktra_ngto {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
 }

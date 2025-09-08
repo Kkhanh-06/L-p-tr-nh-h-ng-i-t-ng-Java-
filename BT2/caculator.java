@@ -27,5 +27,6 @@ public class caculator {
             System.out.println("Chu vi: " + cltor.peremeter());
             System.out.println("Dien tich: " + cltor.area());
         }
+        sc.close();
     }
 }

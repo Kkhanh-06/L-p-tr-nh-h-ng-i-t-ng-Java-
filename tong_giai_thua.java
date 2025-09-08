@@ -17,5 +17,6 @@ public class tong_giai_thua {
             gthua += GT(i);
         }
         System.out.println(gthua);
+        sc.close();
     }
 }
