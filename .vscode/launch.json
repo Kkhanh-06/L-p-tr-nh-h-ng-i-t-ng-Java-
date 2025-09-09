@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "dem_to_hop",
+            "request": "launch",
+            "mainClass": "dem_to_hop",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
             "name": "Caculator",
             "request": "launch",
             "mainClass": "bt2_tinh_chu_vi.Caculator",
