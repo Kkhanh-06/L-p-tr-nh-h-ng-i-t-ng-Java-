@@ -7,8 +7,6 @@ public class TaiKhoan {
     private String chuSTK;
     private long du;
 
-    private static final double laiSuat = 0.03;
-
     public TaiKhoan(String stk, String chuSTK, long du) {
         this.stk = stk;
         this.chuSTK = chuSTK;
