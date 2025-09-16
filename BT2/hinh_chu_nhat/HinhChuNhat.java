@@ -1,9 +1,10 @@
+package hinh_chu_nhat;
 import java.util.Scanner;
 
-public class caculator {
+public class HinhChuNhat {
     private long x;
     private long y;
-    public caculator(long x, long y) {
+    public HinhChuNhat(long x, long y) {
         this.x = x;
         this.y = y;
     }
@@ -23,7 +24,7 @@ public class caculator {
         if (x <= 0 || y <= 0) {
             System.out.println("Nhap x, y khong hop le!");
         } else {
-            caculator cltor = new caculator(x, y);
+            HinhChuNhat cltor = new HinhChuNhat(x, y);
             System.out.println("Chu vi: " + cltor.peremeter());
             System.out.println("Dien tich: " + cltor.area());
         }

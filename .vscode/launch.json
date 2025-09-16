@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HinhChuNhat",
+            "request": "launch",
+            "mainClass": "HinhChuNhat",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "tong_uoc1",
+            "request": "launch",
+            "mainClass": "tong_uoc1",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
             "name": "SinhVien",
             "request": "launch",
             "mainClass": "BT3.SinhVien",

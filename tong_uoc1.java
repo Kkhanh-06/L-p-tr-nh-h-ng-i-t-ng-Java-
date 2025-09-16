@@ -1,27 +1,34 @@
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class tong_uoc1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        int sum = 0;
+        long tong = 0;
         while (t-- > 0) {
-            int n = sc.nextInt();
-            Map<Integer, Integer> dem = new LinkedHashMap<>();
-            for (int i = 2; i <= n; ++i) {
-                int num = 0;
-                while (n % i == 0) {
-                    dem.put(i, ++num);
-                    n /= i;
+            long n = sc.nextLong();
+            int N = (int) n;
+            boolean[] prime = new boolean[N + 1];
+            Arrays.fill(prime, true);
+            prime[0] = prime[1] = false;
+            for (int i = 2; i * i <= N; ++i) {
+                if (prime[i]) {
+                    for (int j = i * i; j <= N; j += i) {
+                        prime[j] = false;
+                    }
                 }
             }
-            for (Map.Entry<Integer, Integer> num: dem.entrySet()) {
-                sum += num.getKey() * num.getValue();
+            long tmp = n;
+            for (int i = 2; i <= N; ++i) {
+                if (prime[i]) {
+                    while (tmp % i == 0) {
+                        tong += i;
+                        tmp /= i;
+                    }
+                }
             }
         }
-        System.out.println(sum);
+        System.out.println(tong);
         sc.close();
     }
 }
