@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class tong_phan_so {
     private long x1;
     private long y1;
@@ -23,6 +25,16 @@ public class tong_phan_so {
     public void sum_ps () {
         long tuso = x1 * y2 + x2 * y1;
         long mauso = y1 * y2;
-        System.out.println();
+        System.out.println((tuso / gcd(tuso, mauso)) + "/" + (mauso / gcd(tuso, mauso)));
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long x1 = sc.nextLong();
+        long y1 = sc.nextLong();
+        long x2 = sc.nextLong();
+        long y2 = sc.nextLong();
+        tong_phan_so tps = new tong_phan_so(x1, y1, x2, y2);
+        tps.sum_ps();
     }
 }

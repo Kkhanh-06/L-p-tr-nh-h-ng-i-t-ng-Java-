@@ -1,33 +1,40 @@
 package hinh_chu_nhat;
-import java.util.Scanner;
 
 public class HinhChuNhat {
-    private long x;
-    private long y;
-    public HinhChuNhat(long x, long y) {
-        this.x = x;
-        this.y = y;
+    private long width, height;
+
+    public HinhChuNhat (long width, long height) {
+        this.setWidth(width);
+        this.setHeight(height);
     }
 
-    public long peremeter() {
-        return 2 * (x + y);
+    public long getWidth () {
+        return width;
     }
 
-    public long area() {
-        return x * y;
+    public long getHeight () {
+        return height;
     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        long x = sc.nextLong();
-        long y = sc.nextLong();
-        if (x <= 0 || y <= 0) {
-            System.out.println("Nhap x, y khong hop le!");
-        } else {
-            HinhChuNhat cltor = new HinhChuNhat(x, y);
-            System.out.println("Chu vi: " + cltor.peremeter());
-            System.out.println("Dien tich: " + cltor.area());
+    public void setWidth (long width) {
+        if (width <= 0) {
+            throw new IllegalArgumentException("Nhap chieu rong la so nguyen duong!");
         }
-        sc.close();
+        this.width = width;
+    }
+
+    public void setHeight (long height) {
+        if (height <= 0) {
+            throw new IllegalArgumentException("Nhap chieu dai la so nguyen duong!");
+        }
+        this.height = height;
+    }
+
+    public long getArea () {
+        return width * height;
+    }
+
+    public long getPerimeter () {
+        return 2 * (width * height);
     }
 }
