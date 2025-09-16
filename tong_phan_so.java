@@ -36,5 +36,6 @@ public class tong_phan_so {
         long y2 = sc.nextLong();
         tong_phan_so tps = new tong_phan_so(x1, y1, x2, y2);
         tps.sum_ps();
+        sc.close();
     }
 }
