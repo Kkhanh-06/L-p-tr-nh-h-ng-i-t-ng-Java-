@@ -21,6 +21,8 @@ public class Product {
             this.nameProduct = "";
             return;
         }
+
+        // Chuyển xâu kí tự về mảng kí tự với mỗi phần tử là 1 từ viết thường
         String[] words = nameProduct.trim().toLowerCase().split("\\s+");
         StringBuilder newNameProduct = new StringBuilder();
 
@@ -35,6 +37,7 @@ public class Product {
     }
 
     public void setPrice(double price) {
+        // Thông báo khi nhập sai giá
         if (price < 0) {
             throw new IllegalArgumentException("Giá nhập vào không thể là số âm!!!");
         }
