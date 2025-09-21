@@ -37,7 +37,7 @@ public class Customer {
         if (email.matches(regex) == true) {
             this.email = email;
         } else {
-            throw new IllegalArgumentException("Vui lòng nhập đúng định dạng của email!!!");
+            throw new IllegalArgumentException("Vui lòng nhập đúng định dạng của email!");
         }
     }
 }
