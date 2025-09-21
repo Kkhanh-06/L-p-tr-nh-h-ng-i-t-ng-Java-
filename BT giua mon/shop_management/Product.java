@@ -39,7 +39,7 @@ public class Product {
     public void setPrice(double price) {
         // Thông báo khi nhập sai giá
         if (price < 0) {
-            throw new IllegalArgumentException("Giá nhập vào không thể là số âm!!!");
+            throw new IllegalArgumentException("Giá nhập vào không thể là số âm!");
         }
         this.price = price;
     }
