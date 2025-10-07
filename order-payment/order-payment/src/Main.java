@@ -1,11 +1,8 @@
 import java.util.*;
 
-import Order.Order;
-import Payment.PaymentMethod;
-import Payment.VisaPayment;
-import Product.ElectronicProduct;
-import Product.FoodProduct;
-import Product.Product;
+import Order.*;
+import Payment.*;
+import Product.*;
 
 public class Main {
     public static void main(String[] args) {
