@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sapxepnoibot",
+            "request": "launch",
+            "mainClass": "B24DCCC156_TH2.sapxepnoibot",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "Sxep_Noibot",
+            "request": "launch",
+            "mainClass": "B24DCCC156_TH2.Sxep_Noibot",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "src.Main",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
+            "name": "Animal",
+            "request": "launch",
+            "mainClass": "Animal",
+            "projectName": "Lap_Trinh_Huong_Doi_Tuong_65220d74"
+        },
+        {
+            "type": "java",
             "name": "Product",
             "request": "launch",
             "mainClass": "Product",

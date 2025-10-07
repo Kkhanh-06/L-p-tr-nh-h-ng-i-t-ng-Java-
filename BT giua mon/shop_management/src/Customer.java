@@ -40,4 +40,5 @@ public class Customer {
             throw new IllegalArgumentException("Vui lòng nhập đúng định dạng của email!");
         }
     }
+
 }

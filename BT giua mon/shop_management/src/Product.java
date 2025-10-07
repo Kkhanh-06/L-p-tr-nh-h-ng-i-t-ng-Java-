@@ -1,3 +1,4 @@
+package src;
 public class Product {
     private String nameProduct;
     private double price;

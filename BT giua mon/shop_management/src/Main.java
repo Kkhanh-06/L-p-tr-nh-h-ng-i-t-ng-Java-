@@ -1,8 +1,12 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -26,8 +30,10 @@ public class Main {
         System.out.println("Vui long chon san pham: ");
         int num = 0;
         for (Product product : allProducts) {
-            System.out.println((++num) + " " + product.getNameProduct() + " - " + product.getPrice() + "VND");
+            System.out.println((++num) + ". " + product.getNameProduct() + " - " + product.getPrice() + "VND");
         }
+
+        // Chọn mua hàng
         while (true) {
             System.out.println("Ban co muon mua khong? Co(1) / Khong(0)");
             int check = sc.nextInt();
