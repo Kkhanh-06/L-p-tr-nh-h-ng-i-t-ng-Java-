@@ -1,3 +1,4 @@
+package Product;
 public class ElectronicProduct extends Product {
     private String infoIMEI;
     private int warrantyPeriod;

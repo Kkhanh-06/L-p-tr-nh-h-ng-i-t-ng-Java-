@@ -1,4 +1,8 @@
+package Order;
 import java.util.List;
+
+import Payment.PaymentMethod;
+import Product.Product;
 
 public class Order {
     private String nameCustomer;

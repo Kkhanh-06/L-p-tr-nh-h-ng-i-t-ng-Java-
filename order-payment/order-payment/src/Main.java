@@ -1,5 +1,12 @@
 import java.util.*;
 
+import Order.Order;
+import Payment.PaymentMethod;
+import Payment.VisaPayment;
+import Product.ElectronicProduct;
+import Product.FoodProduct;
+import Product.Product;
+
 public class Main {
     public static void main(String[] args) {
         List<Product> productList = new ArrayList<>();

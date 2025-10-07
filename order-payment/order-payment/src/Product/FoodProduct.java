@@ -1,3 +1,4 @@
+package Product;
 public class FoodProduct extends Product {
     private String expiryDate;
 

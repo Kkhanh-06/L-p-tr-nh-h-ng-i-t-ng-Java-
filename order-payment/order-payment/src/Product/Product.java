@@ -1,3 +1,4 @@
+package Product;
 public class Product {
     protected String productID, nameProduct;
     protected double priceProduct;
